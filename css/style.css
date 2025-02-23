@@ -46,3 +46,36 @@ span {
 .tempo {
   font-size: 10px;
 }
+
+@media (max-width: 768px) {
+  .relogio-brasil {
+    background: rgba(0, 0, 0, 0.678);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 350px;
+    border-radius: 5px;
+    div {
+      background: rgba(5, 5, 5, 0.9);
+          height: 120px;
+          width: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          flex-direction: column;
+          border-radius: 7px;
+          letter-spacing: 3px;
+          box-shadow: 0px 8px 80px rgba(10, 10, 10, 0.7);
+    }
+  }
+  span {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .tempo {
+    font-size: 10px;
+  }
+ }
